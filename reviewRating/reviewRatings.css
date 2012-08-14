@@ -1,0 +1,129 @@
+/******************************************  
+ ReviewRatings STYLESHEET
+*******************************************/
+.reviewRatingBox {
+  margin:0;
+  padding:0;
+  border: 1px solid #000000;
+  width: 605px;
+  font-family: inherit;
+  font-size: inherit;
+  font-size-adjust: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  line-height: 20px;
+}
+
+.ratingLeftBox {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  float: left;
+  width: 80px;  
+  text-align: center;
+}
+
+.ratingRightBox {
+  float: left;
+  padding: 6px;
+  width: 512px;
+  border-left: 1px solid #000000;
+}
+
+.reviewRatingTitle {
+  font-size:12px;
+  font-weight: bold;
+  padding: 5px;
+  padding-right: 0px;
+  border-bottom: 1px solid #000000;
+  clear: both;
+}
+
+.reviewRatingHead {
+  background-color:#9fbb49;
+  font-size:12px;
+  font-weight:bold;
+  width: 100%;
+  color: #ffffff;
+}
+
+.reviewRatingHeadLeftBox {
+  background-color:#9fbb49;
+}
+
+.reviewRatingHeadRightBox {
+  background-color:#9fbb49;
+  border-left: 1px solid #ffffff;
+}
+
+.raviewRating {
+  border-bottom: 1px solid #000000;
+}
+
+.raviewRatingOdd {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.reviewRatingLeftBox {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  line-height: 45px;
+}
+
+.reviewRatingRightBox {
+  font-size: 11px;
+  padding-bottom: 2px;
+  border-left: 1px solid #000000;
+  min-height: 43px;
+  font-style: normal;
+}
+
+.raviewRatingTotal {
+  width: 100%;
+  background-color:#9fbb49;
+}
+
+.reviewRatingTotalLeftBox {
+  font-size: 30px;
+  font-weight: bold;
+  background-color:#9fbb49;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 1px;
+  height: 60px;
+  line-height: 55px;
+}
+
+.reviewRatingTotalRightBox {
+  background-color:#9fbb49;
+  border-left: 1px solid #ffffff;
+  padding: 0px;
+  width: 524px; 
+  height: 69px;
+}
+
+.ratingTotalScoreLabel, .ratingTotalScoreImage {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  background-color:#9fbb49;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 1px;
+  padding-left: 4px;
+  width: 272px;
+  height: 60px;
+  line-height: 55px;
+}
+
+.ratingTotalScoreImage {
+  float: left;
+  padding-top: 1px;
+  width: 242px;
+  border-right: 0;
+}
+
+.clear { clear: both; }
